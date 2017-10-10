@@ -12,7 +12,7 @@ package com.company;
 
         public EmployeeInfo(String employeeName, String  employeeNumber, int employeeShift) {
             this.employeeName = employeeName;
-            this.employeeNumber = employeeNumber;
+            this.employeeNumber = employeeNumber;                   // Constructor Method for Employee Info
             this.employeeShift = employeeShift;
         }
 
@@ -26,7 +26,7 @@ package com.company;
 
         public String getEmployeeNumber() { return employeeNumber; }
 
-        public void setEmployeeNumber(String employeeNumber) { this.employeeNumber = employeeNumber; }
+        public void setEmployeeNumber(String employeeNumber) { this.employeeNumber = employeeNumber; } //getter and setter's for Employee Info
 
         public int getEmployeeShift() {
             return employeeShift;
@@ -38,7 +38,7 @@ package com.company;
 
         public void printAll() {
             System.out.println("Employee Name  -  " +   "Employee Number  -  " + "Employee Shift");
-            System.out.println(employeeName + "          " + employeeNumber + "                 " + employeeShift);
+            System.out.println(employeeName + "          " + employeeNumber + "                 " + employeeShift);   // Print statement with formatted output
         }
 
     }
